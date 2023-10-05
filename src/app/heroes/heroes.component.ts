@@ -13,7 +13,9 @@ export class HeroesComponent implements OnInit {
     name: 'Windstorm'
   }
 
-  constructor() { }
+  constructor() { 
+    console.log(this.hero);
+  }
 
   ngOnInit(): void {
   }
